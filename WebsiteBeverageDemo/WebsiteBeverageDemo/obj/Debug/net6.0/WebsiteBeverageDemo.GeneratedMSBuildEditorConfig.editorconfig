@@ -1,0 +1,269 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebsiteBeverageDemo
+build_property.RootNamespace = WebsiteBeverageDemo
+build_property.ProjectDir = D:\Đồ án ngành\WebsiteBeverageDemo\WebsiteBeverageDemo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Đồ án ngành\WebsiteBeverageDemo\WebsiteBeverageDemo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Account/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxBZG1pbkxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminDonHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Eb25IYW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminDonHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Eb25IYW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminDonHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Eb25IYW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminDonHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Eb25IYW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminDonHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Eb25IYW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminSanPhams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYW5QaGFtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminSanPhams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYW5QaGFtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminSanPhams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYW5QaGFtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminSanPhams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYW5QaGFtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminSanPhams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TYW5QaGFtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminTaiKhoans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UYWlLaG9hbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminTaiKhoans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UYWlLaG9hbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminTaiKhoans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UYWlLaG9hbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminTaiKhoans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UYWlLaG9hbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/AdminTaiKhoans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5UYWlLaG9hbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/LoaiHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhhbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/LoaiHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhhbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/LoaiHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhhbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/LoaiHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhhbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/LoaiHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhhbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/PhanQuyens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhhblF1eWVuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/PhanQuyens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhhblF1eWVuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/PhanQuyens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhhblF1eWVuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/PhanQuyens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhhblF1eWVuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/PhanQuyens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGhhblF1eWVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Search/ListSanPhamsSearchPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VhcmNoXExpc3RTYW5QaGFtc1NlYXJjaFBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Shared/_SideNavPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlTmF2UGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Accounts/DangkyTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGFuZ2t5VGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Accounts/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Accounts/_ChangePasswordPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcX0NoYW5nZVBhc3N3b3JkUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Accounts/_DonHangPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcX0RvbkhhbmdQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Checkout/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/DonHang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Home/SanPhamTheoLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Product/SanPhamTheoLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/Components/HeaderCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyQ2FydFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/Components/LoaiHangMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haUhhbmdNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/Components/LoaiHangShop/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haUhhbmdTaG9wXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/Components/NumberCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTnVtYmVyQ2FydFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/_FooterPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/_HeaderPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-dqinc5q4br
+
+[D:/Đồ án ngành/WebsiteBeverageDemo/WebsiteBeverageDemo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fps510k8qv

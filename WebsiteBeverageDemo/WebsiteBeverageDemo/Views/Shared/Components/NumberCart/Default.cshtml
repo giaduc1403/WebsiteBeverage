@@ -1,0 +1,21 @@
+﻿@model List<WebsiteBeverageDemo.ModelViews.CartItem>
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="header__cart">
+        <ul>
+            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+            <li><a href="/gio-hang.html"><i class="fa fa-shopping-bag"></i> <span>@Model.Count()</span></a></li>
+        </ul>
+        <div class="header__cart__price">item: <span>$150.00</span></div>
+    </div>
+}
+else
+{
+    <div class="header__cart">
+        <ul>
+            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>0</span></a></li>
+        </ul>
+        <div class="header__cart__price">item: <span>$150.00</span></div>
+    </div>
+}

@@ -1,0 +1,28 @@
+﻿@model WebsiteBeverageDemo.Models.LoaiHang
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card-body">
+    <h4 class="card-title">Basic Info</h4>
+    <div class="table-responsive">
+        <table class="product-info-table m-t-20">
+            <tbody>
+                <tr>
+                    <td>ID:</td>
+                    <td class="text-dark font-weight-semibold">@Model.MaLoai</td>
+                </tr>
+                <tr>
+                    <td>Tên Loại:</td>
+                    <td class="text-dark font-weight-semibold">@Model.TenLoai</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <a class="btn btn-success m-r-5" asp-action="Edit" asp-route-id="@Model.MaLoai">Edit</a> |
+    <a class="btn btn-primary m-r-5" asp-action="Index">Back to List</a>
+</div>

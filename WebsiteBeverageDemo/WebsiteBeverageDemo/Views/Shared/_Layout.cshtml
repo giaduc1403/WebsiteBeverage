@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Beverage">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Beverage</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="~/Assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Assets/css/style.css" type="text/css">
+    <!--------------------------------------------->
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/StyleHome/assets/css/plugins/xanimate.min.css">
+    <link rel="stylesheet" href="~/StyleHome/assets/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="~/StyleHome/assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="~/StyleHome/assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="~/StyleHome/assets/css/plugins/magnific-popup.min.css" />
+    @await RenderSectionAsync("Styles",required:false)
+    <link rel="stylesheet" href="~/StyleHome/assets/css/style.css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="../Assets/img/logo-vector.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>0</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>0</span></a></li>
+            </ul>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="~/Assets/img/language.png" alt="">
+                <div>English</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Tiếng việt</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> Login</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Shop</a></li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> 2051050104duc@ou.edu.vn</li>
+                <li>Miễn phí ship hóa đơn trên 100k</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+    <!-- Header Section Begin -->
+    @await Html.PartialAsync("_HeaderPartialView.cshtml")
+
+    <!-- Header Section End -->
+    <!-- Hero Section Begin -->
+    <section class="hero hero-normal">
+        <div class="container">
+            <div class="row">
+                @await Component.InvokeAsync("LoaiHangMenu")
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    All Categories
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="What do yo u need?">
+                                <button style="background-color: #007bff !important" type="submit" class="site-btn">Tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>0973864883</h5>
+                                <span>Hỗ trợ 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    @RenderBody()
+    <!-- Categories Section Begin -->
+    <!-- Footer Section Begin -->
+    @await Html.PartialAsync("_FooterPartialView.cshtml")
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="~/Assets/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.nice-select.min.js"></script>
+    <script src="~/Assets/js/jquery-ui.min.js"></script>
+    <script src="~/Assets/js/jquery.slicknav.js"></script>
+    <script src="~/Assets/js/mixitup.min.js"></script>
+    <script src="~/Assets/js/owl.carousel.min.js"></script>
+    <script src="~/Assets/js/main.js"></script>
+
+    @await Component.InvokeAsync("Notyf")
+    @await RenderSectionAsync("Scripts",required:false)
+
+    @*<!-- Core Vendors JS -->
+    <script src="~/Adminassets/js/vendors.min.js"></script>
+
+    <!-- page js -->
+    <!-- Core JS -->
+    <script src="~/Adminassets/js/app.min.js"></script>*@
+    <!-- JS Files
+    ============================================ -->
+    <!-- Global Vendor, plugins JS -->
+    <!-- Vendor JS -->
+    <script src="~/StyleHome/assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="~/StyleHome/assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="~/StyleHome/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+    <script src="~/StyleHome/assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="~/StyleHome/assets/js/vendor/jquery.waypoints.js"></script>
+
+    <!--Plugins JS-->
+    <script src="~/StyleHome/assets/js/plugins/wow.min.js"></script>
+    <script src="~/StyleHome/assets/js/plugins/jquery-ui.min.js"></script>
+    <script src="~/StyleHome/assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="~/StyleHome/assets/js/plugins/jquery.nice-select.js"></script>
+    <script src="~/StyleHome/assets/js/plugins/parallax.min.js"></script>
+    <script src="~/StyleHome/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+
+    <!--Main JS (Common Activation Codes)-->
+    <script src="~/assets/js/main.js"></script>
+
+
+</body>
+
+</html>

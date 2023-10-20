@@ -1,0 +1,57 @@
+﻿@model WebsiteBeverageDemo.Models.DonHang
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Đơn Hàng</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Madon" />
+            <div class="form-group">
+                <label asp-for="NgayDat" class="control-label">Ngày đặt</label>
+                <input asp-for="NgayDat" class="form-control" />
+                <span asp-validation-for="NgayDat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TinhTrang" class="control-label">Tình trạng</label>
+                <input asp-for="TinhTrang" class="form-control" />
+                <span asp-validation-for="TinhTrang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThanhToan" class="control-label">Thanh toán</label>
+                <input asp-for="ThanhToan" class="form-control" />
+                <span asp-validation-for="ThanhToan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChiNhanHang" class="control-label">Địa chỉ nhận hàng</label>
+                <input asp-for="DiaChiNhanHang" class="form-control" />
+                <span asp-validation-for="DiaChiNhanHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNguoiDung" class="control-label">Người dùng</label>
+                <select asp-for="MaNguoiDung" class="form-control" asp-items="ViewBag.MaNguoiDung"></select>
+                <span asp-validation-for="MaNguoiDung" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongTien" class="control-label">Tổng tiền</label>
+                <input asp-for="TongTien" class="form-control" />
+                <span asp-validation-for="TongTien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

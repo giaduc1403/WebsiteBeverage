@@ -1,0 +1,197 @@
+﻿@model List<WebsiteBeverageDemo.ModelViews.CartItem>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="../Assets/img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Shopping Cart</h2>
+                    <div class="breadcrumb__option">
+                        <a href="/">Home</a>
+                        <span>Giỏ Hàng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Shoping Cart Section Begin -->
+    <section class="shoping-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shoping__cart__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="cart-product-name">Sản phẩm</th>
+                                    <th class="product-price">Đơn giá</th>
+                                    <th class="product-quantity">Số lượng</th>
+                                    <th class="product-subtotal">Thành tiền</th>
+                                    <th class="product_remove">Xóa</th>
+
+                                </tr>
+                            </thead>
+
+                        @if (Model != null && Model.Count() > 0)
+                        {
+                            <tbody>
+                                @if (Model != null && Model.Count() > 0)
+                                {
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td class="shoping__cart__item">
+                                                <img style="width: 100px !important" src="../images/products/@item.sanPham.AnhSp" alt="">
+                                                <h5>@item.sanPham.TenSp</h5>
+                                            </td>
+                                            <td class="shoping__cart__price">
+                                                @item.sanPham.GiaBan.Value.ToString("#,##0") VNĐ
+                                            </td>
+                                            <td class="shoping__cart__quantity">
+                                                <div class="quantity">
+                                                    <div class=" pro-qty">
+                                                        <input data-mahh="@item.sanPham.MaSp"  data-dongia="@item.sanPham.GiaBan" class="cartItem" type="number" value="@item.soLuong" min="1">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="shoping__cart__total">
+                                                @item.ThanhTien.Value.ToString("#,##0") VNĐ
+                                            </td>
+                                           @* <td class="removecart shoping__cart__item__close">
+                                                <span class="icon_close"></span>
+                                            </td>*@
+                                            <td class="product_remove">
+                                                <input style="background-color: red !important" type="button" value="X" class="removecart btn btn-primary" data-mahh="@item.sanPham.MaSp" />
+                                            </td>
+                                        </tr>
+                                    }
+
+                                }
+                            </tbody>
+
+                        }
+                        else
+                        {
+                            <p>Chưa có sản phẩm nào trong giỏ hàng</p>
+                        }
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shoping__cart__btns">
+                        <a href="#" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
+                        <a href="#" class="primary-btn cart-btn cart-btn-right">
+                            <span class="icon_loading"></span>
+                            Upadate Cart
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="shoping__continue">
+                        <div class="shoping__discount">
+                            <h5>Discount Codes</h5>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your coupon code">
+                                <button type="submit" class="site-btn">APPLY COUPON</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="shoping__checkout">
+                        <h5>Tổng đơn hàng</h5>
+                        <ul>
+                            <li>Thành tiền <span>@Model.Sum(x => x.ThanhTien).Value.ToString("#,##0") VNĐ</span></li>
+                        <li>Total <span>@Model.Sum(x => x.ThanhTien).Value.ToString("#,##0") VNĐ.</span></li>
+                        </ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="/checkout.html" class="primary-btn">Thanh Toán</a>
+                    }
+                    else
+                    {
+                        <a href="/dang-nhap.html?returnUrl=/checkout.html" class="primary-btn">Thanh Toán</a>
+                    }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                        @if (Model != null && Model.Count() > 0)
+{
+}
+    else
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <div style="color: red" class="breadcrumb__option">
+                            <span>Chưa có sản phẩm trong giỏ hàng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+@section Scripts{
+    <script>
+        $(function () {
+            function loadHeaderCart() {
+                $('#miniCart').load("/AjaxContent/HeaderCart");
+                $('#numberCart').load("/AjaxContent/NumberCart");
+            }
+            $(".removecart").click(function () {
+                var productid = $(this).attr("data-mahh");
+                $.ajax({
+                    url: "api/cart/remove",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: { spID: productid },
+                    success: function (result) {
+                        if (result.success) {
+                            loadHeaderCart();//Reload lai gio hang
+                            location.reload();
+                        }
+                    },
+                    error: function (rs) {
+                        alert("Remove Cart Error !")
+                    }
+                });
+            });
+            $(".cartItem").click(function () {
+                var productid = $(this).attr("data-mahh");
+                var soluong = parseInt($(this).val());
+                $.ajax({
+                    url: "api/cart/update",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: {
+                        spID: productid,
+                        sl: soluong
+                    },
+                    success: function (result) {
+                        if (result.success) {
+                            loadHeaderCart();//Reload lai gio hang
+                            window.location = 'gio-hang.html';
+                        }
+                    },
+                    error: function (rs) {
+                        alert("Cập nhật Cart Error !")
+                    }
+                });
+            });
+        });
+    </script>
+}

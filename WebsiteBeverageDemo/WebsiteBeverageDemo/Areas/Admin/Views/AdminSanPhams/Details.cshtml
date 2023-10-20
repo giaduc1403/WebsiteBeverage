@@ -1,0 +1,52 @@
+﻿@model WebsiteBeverageDemo.Models.SanPham
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4 class="card-title">Chi tiết sản phẩm</h4>
+<div class="table-responsive">
+    <table class="product-info-table m-t-20">
+        <tbody>
+            <tr>
+                <td>ID:</td>
+                <td class="text-dark font-weight-semibold">@Model.MaSp</td>
+            </tr>
+            <tr>
+                <td>Tên Sản phẩm:</td>
+                <td>@Model.TenSp</td>
+
+            </tr>
+            <tr>
+                <td>Giá bán:</td>
+                <td>@Model.GiaBan</td>
+            </tr>
+            <tr>
+                <td>Số lượng:</td>
+                <td>@Model.Soluong</td>
+            </tr>
+            <tr>
+                <td>Mô tả sản phẩm:</td>
+                <td>@Model.MoTa</td>
+            </tr>
+            <tr>
+                <td>Loại sản phẩm:</td>
+                <td>@Model.MaLoaiNavigation.TenLoai</td>
+            </tr>
+            <tr>
+                <td>Nhà cung cấp:</td>
+                <td>@Model.MaNccNavigation.TenNcc</td>
+            </tr>
+            <tr>
+                <td>Ảnh sản phẩm:</td>
+                <td>@Model.AnhSp</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+<div>
+    <a class="btn btn-success m-r-5" asp-area="Admin" asp-controller="AdminSanPhams" asp-action="Details" asp-route-id="@Model.MaSp">Edit</a>
+    <a class="btn btn-primary m-r-5" asp-area="Admin" asp-controller="AdminSanPhams" asp-action="Index">Quay lại</a>
+</div>

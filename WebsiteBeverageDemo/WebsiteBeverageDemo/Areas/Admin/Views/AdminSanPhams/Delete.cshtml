@@ -1,0 +1,69 @@
+﻿@model WebsiteBeverageDemo.Models.SanPham
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Trang chủ</a>
+            <a asp-area="Admin" asp-controller="PhanQuyens" asp-action="Index" class="breadcrumb-item">Danh sách quyền truy cập</a>
+            <span class="breadcrumb-item active">Xác nhận xóa quyền truy cập</span>
+        </nav>
+    </div>
+</div>
+
+<div class="card-body">
+    <h4 class="card-title">Xác nhận xóa quyền truy cập</h4>
+    <div class="table-responsive">
+        <table class="product-info-table m-t-20">
+            <tbody>
+                <tr>
+                    <td>ID:</td>
+                    <td class="text-dark font-weight-semibold">@Model.MaSp</td>
+                </tr>
+                <tr>
+                    <td>Tên Sản phẩm:</td>
+                    <td>@Model.TenSp</td>
+
+                </tr>
+                <tr>
+                    <td>TGiá bán:</td>
+                    <td>@Model.GiaBan</td>
+                </tr>
+                <tr>
+                    <td>Số lượng:</td>
+                    <td>@Model.Soluong</td>
+                </tr>
+                <tr>
+                    <td>Mô tả sản phẩm:</td>
+                    <td>@Model.MoTa</td>
+                </tr>
+                <tr>
+                    <td>Loại sản phẩm:</td>
+                    <td>@Model.MaLoaiNavigation.TenLoai</td>
+                </tr>
+                <tr>
+                    <td>Nhà cung cấp:</td>
+                    <td>@Model.MaNccNavigation.TenNcc</td>
+                </tr>
+                <tr>
+                    <td>Ảnh sản phẩm:</td>
+                    <td>@Model.AnhSp</td>
+                </tr>
+                <tr>
+                    <td>Xác nhận xóa:</td>
+                    <td>
+                        <form asp-action="Delete" asp-route-id="@Model.MaSp">
+                            <input type="hidden" asp-for="MaSp" />
+                            <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

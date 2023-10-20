@@ -1,0 +1,69 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<WebsiteBeverageDemo.Models.LoaiHang>
+@{ int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách danh mục loại sản phẩm" + CurrentPage ;
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Trang chủ</a>
+            <span class="breadcrumb-item active">Danh sách danh mục loại sản phẩm : trang @CurrentPage</span>
+        </nav>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <div class="row m-b-30">
+            <div class="col-lg-8">
+                <a class="btn btn-primary" asp-area="Admin" asp-controller="LoaiHangs" asp-action="Create"><i class="anticon anticon-plus-circle m-r-5"></i><span>Thêm danh mục</span></a>
+            </div>
+            <div class="col-lg-4 text-right">
+
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover e-commerce-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên sản phẩm</th>
+                        <th>#</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.MaLoai
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-fluid rounded" src="assets/images/others/thumb-9.jpg" style="max-width: 60px" alt="">
+                                        <h6 class="m-b-0 m-l-10">@item.TenLoai</h6>
+                                    </div>
+                                </td>
+                                <td class="text-right">
+                                    <a class="btn btn-success m-r-5" asp-area="Admin" asp-controller="LoaiHangs" asp-action="Details" asp-route-id="@item.MaLoai">View</a>
+                                    <a class="btn btn-primary m-r-5" asp-area="Admin" asp-controller="LoaiHangs" asp-action="Edit" asp-route-id="@item.MaLoai">Edit</a>
+                                    <a class="btn btn-secondary m-r-5" asp-area="Admin" asp-controller="LoaiHangs" asp-action="Delete" asp-route-id="@item.MaLoai">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <div aria-label="Page navigation example">
+                <ul class="pagination">
+                    <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="LoaiHangs" asp-action="Index" />
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

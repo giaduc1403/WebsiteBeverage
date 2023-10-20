@@ -1,0 +1,24 @@
+﻿@model WebsiteBeverageDemo.Models.PhanQuyen
+
+@{
+    ViewData["Title"] = "Thông tin quyền truy cập";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card-body">
+    <h4 class="card-title">Basic Info</h4>
+    <div class="table-responsive">
+        <table class="product-info-table m-t-20">
+            <tbody>
+                <tr>
+                    <td>ID:</td>
+                    <td class="text-dark font-weight-semibold">@Model.Idquyen</td>
+                </tr>
+                <tr>
+                    <td>Tên Quyền:</td>
+                    <td>@Model.TenQuyen</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
